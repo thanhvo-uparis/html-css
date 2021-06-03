@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table-main{
+    width: 687px;
+    height: 769px;
+}
+
+table, th, td{
+    border: 1px solid #d7d7d7;
+    border-collapse: collapse;
+}
+
+.heading{
+    height: 40px;
+}
+
+.heading-list{
+    height: 32px;
+}
+
+td{
+    height: 32px;
+}
