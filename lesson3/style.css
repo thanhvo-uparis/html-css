@@ -13,18 +13,32 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
 }
 
-.main{
+/* .main{
     display: flex;
     justify-content: center;
+} */
+
+.main > h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight:750;
+}
+.table-main{
+    margin: auto;
+}
+
+.main .table-title{
+    font-size: 15px;
+    color: #00f;
 }
 
 .table-main{
     width: 688px;
     height: 750px;
-    margin-top: 50px;
+    font-size: 14px;
     /* border-spacing: 1; */
 }
 
@@ -69,4 +83,8 @@ td{
 .table-footer{
     color: #fff;
     background-color: #65a530;
+}
+
+.table-footer p{
+    font-weight: 100;
 }
