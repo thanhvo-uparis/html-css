@@ -45,6 +45,10 @@ table, th, td{
     font-weight: 550;
 }
 
+/* .heading-list th{
+    font-weight: 700;
+} */
+
 td{
     text-align: center;
 }
