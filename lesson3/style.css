@@ -4,7 +4,6 @@
     --red-color: red;
 }
 
-
 *{
     padding: 0;
     margin: 0;
@@ -14,11 +13,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* .main{
-    display: flex;
-    justify-content: center;
-} */
 
 .main > h1{
     text-align: center;
@@ -30,14 +24,19 @@ html{
     margin: auto;
 }
 
+table, th, td{
+    border: 1px solid #d7d7d7;
+    border-collapse: collapse;
+}
+
 .main .table-title{
     font-size: 15px;
     color: #00f;
+    padding-bottom: 17px;
 }
 
 .table-main{
-    width: 688px;
-    height: 750px;
+    width: 687px;
     font-size: 14px;
     /* border-spacing: 1; */
 }
@@ -53,7 +52,7 @@ td{
 .heading{
     color: #fff;
     background-color: #65a530;
-    border: 1px solid red;
+    /* border: 1px solid red;   //tại sao nó ko áp dụng line code này */
 }
 
 .heading-list{
@@ -80,6 +79,23 @@ td{
     background-color: #ffdfdf;
 }
 
+.heading th{
+    height: 40px;
+}
+
+td{
+    height: 32px;
+}
+
+/* tsao ko áp dụng height */
+.heading-list th{
+    height: 32px; 
+    padding: 1px 0px;
+}
+
+.table-footer td{
+    height: 33px !important;
+}
 .table-footer{
     color: #fff;
     background-color: #65a530;
