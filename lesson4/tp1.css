@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #ccc;
+}
+
+.main{
+    width: 660px;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+}
+
+h1{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.main p{
+    font-size: 12px;
+    padding: 10px 0px;
+    line-height: 2;
+}
+
+.table-heading th{
+    font-size: 13px;
+}
+
+.table td{
+    font-size: 12px;
+    padding: 7px 10px;
+}
+
+/* partie2 */
+.partie2 h1{
+    margin: 25px 0px 15px;
+}
+
+.partie2__description p{
+    display: flex;
+}
+
+/* partie3 */
+.partie3 li{
+    list-style: none;
+    height: 25px;
+
+}
+
+.partie3 h2{
+    padding: 8px;
+}
+
+.partie3 ul{
+    margin-top: 20px;
+}
