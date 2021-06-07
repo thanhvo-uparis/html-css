@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red-color: #EA4025; 
+    --yellow-color: #F4B63F;
+    --blue-color: #1332F5;
+    --heading-color: #1433F5;
+}
+
+html{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+     width: 900px;
+     margin: auto;
+     padding: 50px;
+}
+
+.main-heading{
+    color: var(--heading-color);
+    margin: 39px 0px;
+}
+
+.table{
+    margin: auto;
+}
+
+.table-heading1 th{
+     width: 122px;
+     height: 51px;
+     color: #fff;
+}
+
+.table-heading2 td{
+    height: 53px;
+}
+
+.table-body td{
+    width: 126px;
+    height: 73px;
+    font-size: 23px;
+    border: 3px solid #ACACAC;
+    font-weight: bold;
+}
+
+.table-body, .table-body td{
+    border-collapse: collapse;
+}
+
+.table-body sub{
+    font-size: 15px;
+}
+
+/* Phần đổ màu cho các ô */
+.table .cnhat{
+    background-color: var(--red-color);
+}
+
+.cnhat ~ th{
+    background-color: var(--yellow-color);
+}
+
+.table .tbay{
+    background-color: var(--blue-color);
+}
+
+.red-color{
+    color: var(--red-color);
+}
+
+.blue-color{
+    color: var(--blue-color);
+}
+/* END */
