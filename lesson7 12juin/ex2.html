@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Tạo mới tài khoản facebook</title>
+    <style>
+        :root{
+            --btn-color: #00a400;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 432px;
+            height: 537px;
+            margin: auto;
+            margin-top: 200px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 0px 16px;
+        }
+
+        h1{
+            margin-top: 10px;
+        }
+
+        p{
+            margin: 6px 0px 10px;
+        }
+
+        html{
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .item1{
+            width: 399px;
+            margin-bottom: 5px;
+        }
+
+        .item1 input,
+        .item2,
+        .item4 label,
+        .ngaysinh{
+            padding-left: 10px;
+        }
+
+        .user-name{
+            width: 194px;
+            height: 40px;
+            border: 1px solid #ccd0d5;
+            border-radius: 3px;
+        }
+
+        .user-name + .user-name{
+            float: right;
+        }
+
+        .item2{
+            width: 399px;
+            height: 40px;
+            border: 1px solid #ccd0d5;
+            border-radius: 5px;
+            margin: 4px 0px 5px;
+        }
+
+        .item3,
+        .item4{
+            width: 399px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .ngaysinh{
+            width: 125px;
+            height: 36px;
+            border: 1px solid #ccd0d5;
+            border-radius: 4px;
+        }
+
+        .gt{
+            height: 36px;
+            border: 1px solid #ccd0d5;
+            border-radius: 4px;
+            display: inline-block;
+            line-height: 36px;
+        }
+
+        .item input{
+            margin-left: 10px;
+        }
+
+        .article{
+            font-size: 11px;
+            line-height: 13px;
+            width: 399px;
+            color: #777;
+        }
+
+        .item6{
+            display: flex;
+            justify-content: center;
+        }
+
+        .submit{
+            width: 194px;
+            height: 36px;
+            background-color: #00a400;
+            border: 1px solid #00a400;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Đăng ký <i class="fas fa-times" style="float: right; color: #606770; font-size: 25px;"></i></h1>
+        <p style="color: #606787;">Nhanh chóng và dễ dàng.</p>
+        <hr><br>
+        <div class="item1">
+            <input type="text" placeholder="Họ" class="user-name">
+            <input type="text" placeholder="Tên" class="user-name">
+        </div>
+        <input type="text" placeholder="Số di động hoặc email" class="item2"><br>
+        <input type="password" placeholder="Mật khẩu mới" class="item2">
+        <p style="font-size: 13px; color: #7a6787; margin: 10px 0px 5px;">Ngày sinh <i class="fas fa-question-circle"></i></p>
+        <div class="item3">
+                <select name="" id="" class="ngaysinh">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</op+tion>
+                </select>
+                <select name="" id="" class="ngaysinh">
+                    <option>Tháng 1</option>
+                    <option>Tháng 2</option>
+                    <option>Tháng 3</option>
+                    <option>Tháng 4</option>
+                    <option>Tháng 5</op+tion>
+                </select>
+                <select name="" id="" class="ngaysinh">
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2022</option>
+                    <option>2022</option>
+                    <option>2022</option>
+                </select>
+        </div>
+
+        <p style="font-size: 13px; color: #7a6787; margin-bottom: 5px;">Giới tính <i class="fas fa-question-circle"></i></p>
+        <div class="item4">
+                <div class="gt" style="width: 104px;">
+                <label for="sex">Nữ</label><input type="radio" id="sex" style="margin-left: 46px;">
+                </div>
+                <div class="gt" style="width: 115px;">
+                    <label for="sex">Nam</label><input type="radio" id="sex" style="margin-left: 46px;">
+                </div>
+                <div class="gt" style="width: 148px;">
+                    <label for="sex">Tùy chỉnh</label><input type="radio" id="sex" style="margin-left: 46px;">
+                </div>
+
+        </div>
+         <p class="article">Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="">Điều khoản</a> của chúng tôi. Tìm hiểu cách chúng tôi thu thập, sử dụng và chia sẻ dữ liệu của bạn trong <a href="">Chính sách dữ liệu</a> và cách chúng tôi sử dụng cookie cũng như công nghệ tương tự trong <a href="">Chính sách cookie</a>. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất cứ lúc nào.</p>
+         <div class="item6">
+             <input type="submit" value="Đăng ký" class="submit">
+         </div>
+        </div>
+</body>
+</html>
