@@ -1,2 +1,2 @@
 # html-css
- Course HTML/CSS at CodeGym
+HTML/CSS at CodeGym
