@@ -65,3 +65,67 @@ h2{
 .partie3 ul{
     margin-top: 20px;
 }
+
+.partie1{
+    /* width: 660px; */
+    margin: auto;
+    background-color: #fff;
+    padding: 100px 20px;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: #deebfe;
+}
+
+.table-heading{
+    background-color: #deebfe;
+}
+
+.table-heading th{
+    border: none;
+}
+
+.item2{
+    background-color: #f0ebef;
+}
+
+.partie1 h2{
+    padding: 5px 0px;
+}
+
+.partie1 p{
+    margin: 10px 0px;
+    line-height: 25px;
+}
+
+.partie1 a{
+    text-decoration: none;
+    color: #5266d6;
+}
+
+.column1{
+      width: 115px;
+      height: 40px;  
+}
+
+.column2{
+      width: 224px;
+      height: 40px;  
+}
+
+.column3{
+      width: 127px;
+      height: 40px;  
+}
+
+.column4{
+      width: 113px;
+      height: 40px;  
+}
+
+.partie1 td,
+.partie1 td{
+    padding: 10px;
+}
