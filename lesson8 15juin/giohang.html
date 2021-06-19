@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        /* table, td{
+            display: inline-block;
+        }
+
+        .item1 h2{
+             display: inline-block;
+        }
+
+        .item1 a{
+             vertical-align: top;
+        } */
+        .item1 td,
+        .item2 td,
+        .item3 td,
+        .item4 td{
+            padding: 0px 32px 0px 30px;
+        }
+
+        td{
+            border: none;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+        <div class="container" align="center">
+                <table border="1" align="center" style="width: 602px; height: 873px; border: 1px solid #ccc; border-collapse: collapse;">
+                    <tr class="item1" valign="top" style="width: 602px; height: 128px;" >
+                        <td>
+                              <img src="./assets/imgs/quatdien.jpg" alt="" style="width: 88px; height: 89px;">
+                              <a href=""><p>Xóa</p></a>
+                        </td>
+                        <td>
+                            <a href="" style=""><h2>Quạt điều hòa Dmax ZLF-2804RC</h2></a>
+                        </td>
+                        <td>
+                                <span>4.480.000<sup>đ</sup></span> <br>
+                                <del>5.600.000<sup>đ</sup></del> <br>
+                                <input type="text" value="-" style="width: 20px; height: 15px; text-align: center;">
+                                <input type="text" value="1" style="width: 20px; height: 15px; text-align: center;">
+                                <input type="text" value="+" style="width: 20px; height: 15px; text-align: center;">
+                        </td>
+                    </tr>
+                    <tr class="item2" valign="top" style="height: 96px;">
+                        <td style="width: 450px;" colspan="2" >
+                                <a href="">Sử dụng mã giảm giá</a> <br>
+                                <span>Tạm tính (1 sản phẩm):</span> <br>
+                                <span>Tổng tiền:</span>
+                        </td>
+                        <td>
+                                 <span>4.480.000<sup>đ</sup></span> <br>
+                                 <span style="color: red;">4.480.000<sup>đ</sup></span> <br>
+                        </td>
+                    </tr>
+                    <tr class="item3" valign="top">
+                        <td style="width: 100%; height: 128px;" colspan="3">
+                            <p>THÔNG TIN KHÁCH HÀNG:</p>
+                            <input type="radio" autofocus="">Anh <input type="radio">Chị
+                            <div>
+                                <input type="text" placeholder="Họ và Tên">
+                                <input type="text" placeholder="Số điện thoại"> 
+                            </div>
+
+                            <p>CHỌN CÁCH THỨC NHẬN HÀNG:</p>
+                            <input type="radio" autofocus="">Giao tận nơi <input type="radio">Nhận tại siêu thị
+                            <div style="width: 539px; height: 151px; background-color: #f6f6f6;">
+                                <p>Chọn địa chỉ để biết thời gian nhận hàng và phí vận chuyển (nếu có)</p>
+                                <select>
+                                    <option>Hồ Chí Minh</option>
+                                    <option>Nghệ An</option>
+                                </select>
+                                <select>
+                                    <option>Chọn Quận / Huyện</option>
+                                    <option>Hồ Chí Minh</option>
+                                    <option>Nghệ An</option>
+                                </select> <br>
+                                <select>
+                                    <option>Chọn Phường / Xã</option>
+                                    <option>Nghệ An</option>
+                                </select>
+                                <input type="text" placeholder="Số nhà, tên đường">
+                            </div>
+                            <input type="text" placeholder="Yêu cầu khác (không bắt buộc)" style="width: 100%; height: 41px">
+                            <input type="checkbox" id="contact"><label for="contact">Gọi người khác nhận hàng (nếu có)</label> <br>
+                            <input type="checkbox" id="contact"><label for="contact">Xuất hóa đơn công ty</label>
+                        </td>
+                    </tr>
+                    <tr class="item4" valign="top">
+                        <td style="width: 100%; height: 128px;" colspan="3">
+                                <div style="height: 30px;">
+                                    <p>Tổng tiền</p>
+                                    <p style="float: right;">4.480.000<sup>đ</sup></p>
+                                </div>
+                                <input type="submit" value="ĐẶT HÀNG" style="border: none; width: 538px; height: 50px; background-color: #f77f2c;">
+                                <p style="text-align: center;">Chị có thể chọn hình thức thanh toán sau khi đặt hàng</p>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+</body>
+</html>

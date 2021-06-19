@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            html{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+            }
+
+            .main{
+                background-color: #ccc;
+            }
+
+            .container{
+                width: 660px;
+                margin: auto;
+                background-color: #fff;
+                padding: 100px 20px;
+            }
+
+            table, th, td{
+                border: 1px solid;
+                border-collapse: collapse;
+                border-color: #deebfe;
+            }
+
+            .table-heading{
+                background-color: #deebfe;
+            }
+
+            .table-heading th{
+                border: none;
+            }
+
+            .item2{
+                background-color: #f0ebef;
+            }
+
+            .container h2{
+                padding: 5px 0px;
+            }
+
+            .container p{
+                margin: 10px 0px;
+                line-height: 25px;
+            }
+
+            .container a{
+                text-decoration: none;
+                color: #5266d6;
+            }
+
+            .column1{
+                  width: 115px;
+                  height: 40px;  
+            }
+
+            .column2{
+                  width: 224px;
+                  height: 40px;  
+            }
+
+            .column3{
+                  width: 127px;
+                  height: 40px;  
+            }
+
+            .column4{
+                  width: 113px;
+                  height: 40px;  
+            }
+
+            .container td,
+            .container td{
+                padding: 10px;
+            }
+
+    </style>
+</head>
+<body>
+        <div class="main">
+            <div class="container">
+                    <h2>Tables</h2>
+                    <hr>
+                    <p>Lorem eIpsum is simply dummy text of the priting and typeseeint industry. Lorem Ipsum has been the industry's standsard dummy text ever since the 1500s, when an unkown printer took a gally of type and scrambled it make a type secimen book.</p>
+                    <table>
+                        <tr class="table-heading">
+                            <th class="column1">Column 1</th>
+                            <th class="column2">Column 2</th>
+                            <th class="column3">Column 3</th>
+                            <th class="column4">Column 4</th>
+                        </tr>
+                        <tr class="item1">
+                                <td>John Doe</td>
+                                <td>
+                                    <a href="">john.doe@hotmail.com</a>
+                                </td>
+                                <td>
+                                    <img src="./assets/imgs/folder.png" alt="">
+                                    <img src="./assets/imgs/contact.png" alt="">
+                                    <img src="./assets/imgs/chat.png" alt="">
+                                    <img src="./assets/imgs/del.png" alt="">
+                                </td>
+                                <td>
+                                    <input type="checkbox">
+                                </td>
+                        </tr>
+                        <tr class="item2">
+                            <td>Jackie Ching</td>
+                            <td>
+                                <a href="">j.ching@yahoo.com</a>
+                            </td>
+                            <td>
+                                <img src="./assets/imgs/folder.png" alt="">
+                                <img src="./assets/imgs/contact.png" alt="">
+                                <img src="./assets/imgs/chat.png" alt="">
+                                <img src="./assets/imgs/del.png" alt="">
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                       </tr>
+                        <tr class="item3">
+                            <td>Samatha Dollock</td>
+                            <td>
+                                <a href="">sam.dollock@hotmail.com</a>
+                            </td>
+                            <td>
+                                <img src="./assets/imgs/folder.png" alt="">
+                                <img src="./assets/imgs/contact.png" alt="">
+                                <img src="./assets/imgs/chat.png" alt="">
+                                <img src="./assets/imgs/del.png" alt="">
+                            </td>
+                            <td>
+                                <input type="checkbox">
+                            </td>
+                      </tr>
+                    </table>
+            </div>
+        </div>
+</body>
+</html>
